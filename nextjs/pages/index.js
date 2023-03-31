@@ -1,10 +1,14 @@
 import Hero from '@/components/Hero';
+import About from '@/components/About';
 
 export default function Home({ profile, skills, projects }) {
   return (
     <>
       <section className="h-screen bg-neutral-900">
         <Hero data={profile} />
+      </section>
+      <section className="h-screen bg-neutral-300" id="about">
+        <About />
       </section>
     </>
   );
