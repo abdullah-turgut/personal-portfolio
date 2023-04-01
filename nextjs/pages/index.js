@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
+import Skills from '@/components/Skills';
 
 export default function Home() {
   return (
@@ -12,7 +13,9 @@ export default function Home() {
       <section className="h-screen bg-neutral-300" id="about">
         <About />
       </section>
-      <section className="h-screen bg-neutral-700" id="skills"></section>
+      <section className="h-screen bg-neutral-700" id="skills">
+        <Skills />
+      </section>
     </div>
   );
 }
