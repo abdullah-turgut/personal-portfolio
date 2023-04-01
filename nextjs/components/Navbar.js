@@ -33,20 +33,20 @@ function Navbar() {
       </div>
 
       <ul
-        className="hidden flex flex-col w-1/2 ml-auto items-end pt-2 gap-x-8 text-sm md:text-base lg:flex lg:flex-row lg:pr-40"
+        className="hidden flex flex-col w-1/2 ml-auto items-end pt-2 gap-x-8 text-sm  lg:flex lg:flex-row lg:pr-40 "
         id="mobile-nav"
       >
         <li className="hover:text-emerald-500">
-          <a href="#about">ABOUT</a>
+          <a href="#about">About</a>
         </li>
         <li className="hover:text-emerald-500">
-          <a href="#skills">SKILLS</a>
+          <a href="#skills">Skills</a>
         </li>
         <li className="hover:text-emerald-500">
-          <a href="#projects">PROJECTS</a>
+          <a href="#projects">Projects</a>
         </li>
         <li className="hover:text-emerald-500">
-          <a href="#contact">CONTACT</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </div>
