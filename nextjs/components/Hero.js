@@ -10,11 +10,13 @@ function Hero() {
             className="text-emerald-100 hover:scale-110 cursor-pointer drop-shadow-[0px_3px_3px_rgba(255,255,255,0.3)]"
           />
         </a>
+        <a href="https://github.com/abdullah-turgut" target="_blank">
+          <SiGithub
+            size={20}
+            className="text-emerald-100 hover:scale-110 cursor-pointer drop-shadow-[0px_3px_3px_rgba(255,255,255,0.3)]"
+          />
+        </a>
 
-        <SiGithub
-          size={20}
-          className="text-emerald-100 hover:scale-110 cursor-pointer drop-shadow-[0px_3px_3px_rgba(255,255,255,0.3)]"
-        />
         <div className="bg-neutral-400 w-[1px] h-40"></div>
       </div>
 
