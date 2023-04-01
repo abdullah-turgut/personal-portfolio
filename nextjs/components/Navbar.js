@@ -33,7 +33,7 @@ function Navbar() {
       </div>
 
       <ul
-        className="flex flex-col w-1/2 ml-auto items-end pt-2 gap-x-8 text-sm md:text-base lg:flex-row lg:pr-40"
+        className="hidden flex flex-col w-1/2 ml-auto items-end pt-2 gap-x-8 text-sm md:text-base lg:flex lg:flex-row lg:pr-40"
         id="mobile-nav"
       >
         <li className="hover:text-emerald-500">
