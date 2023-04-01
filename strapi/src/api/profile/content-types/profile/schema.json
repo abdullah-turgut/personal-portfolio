@@ -39,7 +39,7 @@
       "type": "string"
     },
     "bio": {
-      "type": "text"
+      "type": "richtext"
     }
   }
 }
