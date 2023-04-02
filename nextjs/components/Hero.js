@@ -2,7 +2,7 @@ import { SiLinkedin, SiGithub } from 'react-icons/si';
 
 function Hero() {
   return (
-    <div className="relative flex flex-col py-16 h-full text-center container mx-auto gap-y-8 lg:text-left lg:px-20">
+    <div className="relative flex flex-col py-16 h-full text-center  mx-auto gap-y-8 lg:text-left lg:px-20">
       <div className="hidden absolute lg:flex flex-col items-center justify-between left-4 bottom-12 text-white gap-y-5">
         <a href="https://www.linkedin.com/in/abdullahturgut/" target="_blank">
           <SiLinkedin

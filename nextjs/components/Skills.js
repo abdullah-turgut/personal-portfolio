@@ -24,7 +24,7 @@ import {
 
 function Skills() {
   return (
-    <div className="container mx-auto h-full flex flex-col justify-end py-12 px-8 text-center lg:px-20">
+    <div className="mx-auto h-full flex flex-col justify-end py-12 px-8 text-center lg:px-20">
       <div className="py-20 flex flex-col text-left text-neutral-200 gap-y-4">
         <p>skills</p>
         <div className="flex w-full flex-wrap gap-x-6 gap-y-6 text-neutral-300 lg:w-1/2 lg:justify-center lg:mx-auto lg:pt-20">

@@ -3,8 +3,8 @@ import { SiGithub, SiVercel } from 'react-icons/si';
 
 function Projects() {
   return (
-    <div className="py-12 px-6 flex flex-col w-full h-full text-center container mx-auto lg:px-20">
-      <div className="flex flex-col w-full justify-center pt-10 items-center gap-y-4 lg:pt-14">
+    <div className="py-12 px-6 flex flex-col w-full h-full text-center mx-auto lg:px-20">
+      <div className="flex flex-col w-full justify-center pt-20 items-center gap-y-4">
         <div className="w-4/5 rounded-md p-3 text-white text-left bg-neutral-700 flex flex-col gap-y-2">
           <p className="font-bold">Twitter-Clone (Backend)</p>
           <p className="text-sm">

@@ -5,7 +5,7 @@ import avatar from '../assets/linkedin_pp2.jpg';
 
 function About() {
   return (
-    <div className="container mx-auto h-full flex flex-col justify-end py-12 px-8 text-center lg:px-20">
+    <div className="mx-auto h-full flex flex-col justify-end py-12 px-8 text-center lg:px-20">
       <div className="mx-auto flex flex-col mt-auto gap-y-3 justify-center items-center lg:flex-row lg:gap-x-10">
         <div className="w-full lg:order-3">
           <Image

@@ -3,7 +3,7 @@ import { MdOutlineMail, MdCall, MdOutlineFileDownload } from 'react-icons/md';
 
 function Contact() {
   return (
-    <div className="py-12 px-6 flex flex-col w-full h-full text-center container mx-auto lg:px-20 text-neutral-300 justify-center items-center gap-y-8">
+    <div className="py-12 px-6 flex flex-col w-full h-full text-center  mx-auto lg:px-20 text-neutral-300 justify-center items-center gap-y-8">
       <div className="flex gap-x-4">
         <MdCall size={20} />
         <p className="text-sm">+90 506 313 7769</p>

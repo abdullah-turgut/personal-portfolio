@@ -12,7 +12,7 @@ function Navbar() {
   }
 
   return (
-    <div className="fixed px-10 top-10 text-emerald-50  w-full h-10  lg:flex lg:px-24 lg:gap-x-10 tracking-widest z-20">
+    <div className="fixed px-10 top-10 text-emerald-50  w-full h-10  lg:flex lg:px-20 lg:gap-x-10 tracking-widest z-20">
       <div className="w-full flex h-10 justify-between items-center">
         <a href="#hero" className="w-8 rotate-12">
           <Image src={logo} alt="pp" />
@@ -33,7 +33,7 @@ function Navbar() {
       </div>
 
       <ul
-        className="hidden flex flex-col w-1/2 ml-auto items-end pt-2 gap-x-8 text-sm  lg:flex lg:flex-row lg:pr-40 "
+        className="hidden flex flex-col w-1/2 ml-auto items-end pt-2 gap-x-8  lg:flex lg:flex-row lg:pr-20 "
         id="mobile-nav"
       >
         <li className="hover:text-emerald-500">
