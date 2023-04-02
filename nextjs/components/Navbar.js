@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <div className="fixed px-10 top-10 text-emerald-50  w-full h-10  lg:flex lg:px-24 lg:gap-x-10 tracking-widest z-20">
       <div className="w-full flex h-10 justify-between items-center">
-        <a href="#hero" className="w-10 rotate-12">
+        <a href="#hero" className="w-8 rotate-12">
           <Image src={logo} alt="pp" />
         </a>
 
